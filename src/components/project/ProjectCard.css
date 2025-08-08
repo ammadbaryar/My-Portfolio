@@ -1,0 +1,72 @@
+.project-card-view {
+  box-shadow: 0 4px 5px 3px rgb(72, 0, 155) !important;
+  /* box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+
+
+ 
+        display: flex;
+        flex-direction: column;
+        height: 100% ;       
+        border-radius: 10px ;
+        overflow : hidden
+      
+}
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  /* box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important; */
+  box-shadow: 0 4px 5px 3px rgba(117, 0, 250, 1) !important;
+}
+
+.project-card-img-container {
+  flex-shrink: 0;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 10px; /* add border radius here to apply on container if needed */
+}
+
+.project-card-img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.project-card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.project-card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  /* color: #fff !important; */
+  color: rgb(24, 2, 44) !important;
+  background-color: #7500fa !important;
+  border-color: #7500fa !important;
+  padding : 10px 20px !important;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #7500fa !important;
+  border-color: #7500fa !important;
+
+}

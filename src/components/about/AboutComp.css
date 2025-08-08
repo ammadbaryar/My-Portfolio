@@ -1,0 +1,74 @@
+.aboutComp-section {
+  padding: 100px 20px 60px; /* More top padding to avoid navbar overlap */
+  color: white;
+}
+
+.aboutComp-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  gap: 50px;
+}
+
+/* Left Column */
+.aboutComp-text {
+  flex: 1;
+}
+
+.aboutComp-text h1 {
+  font-size: 2.4rem; /* Bigger heading */
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.purple {
+  color: #a855f7;
+  font-weight: 700;
+}
+
+.aboutComp-text p {
+  font-size: 1.4rem; /* Larger text */
+  line-height: 1.8;
+  color: #ddd;
+  margin-bottom: 15px;
+}
+
+.aboutComp-text ul {
+  padding: 0;
+  margin-top: 15px;
+  list-style: none; /* No bullet points */
+}
+
+.aboutCompActivity {
+  font-size: 1.3rem; /* Bigger hobby text */
+  color: #ccc;
+  margin-bottom: 10px;
+  padding-left: 0; /* Remove indent */
+}
+
+/* Right Column */
+.aboutComp-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutComp-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .aboutComp-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .aboutComp-text ul {
+    text-align: center;
+    padding-left: 0;
+  }
+}

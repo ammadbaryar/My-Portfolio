@@ -1,0 +1,97 @@
+/* .about-section {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  background-image: var(--section-background-color);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center all sections horizontally 
+  gap: 40px;  spacing between sections 
+} */
+
+.about-section {
+  position: relative;
+  background-image: 
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px),
+    linear-gradient(to left, rgba(5, 8, 40, 0.7), rgba(1, 4, 39, 0.7)),
+    url(../assets/home-bg.jpg);
+  background-size: 200px 200px, 250px 250px, 180px 180px, cover, cover;
+  background-position: 50px 30px, 120px 80px, 200px 150px, center, center;
+  background-repeat: repeat, repeat, repeat, no-repeat, no-repeat;
+  background-attachment: fixed;
+   padding: 30px 0;
+   color: white;
+
+  width: 100%;
+  margin-top: -80px;  
+  z-index: -1;
+
+        min-Height: 100vh;
+        padding : 40px 20px;
+        display: flex;
+        flex-Direction: column;
+        align-Items: center;
+        gap: 40px
+}
+
+/* Skill icons container - Flexbox grid */
+.skillset-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* space between icons */
+}
+
+.tech-icons {
+  font-size: 4.5em;
+  margin: 15px;
+  padding: 10px;
+  opacity: 0.93;
+  border: 1.7px solid rgb(89, 0, 190);
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 5px;
+  display: flex; /* use flex for better alignment */
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 5px 4px 3px rgba(117, 0, 250, 0.37);
+  overflow: hidden;
+  transition: all 0.4s ease;
+  min-width: 80px;
+  min-height: 80px;
+}
+
+.tech-icons:hover {
+  transform: scale(1.05);
+  border: 2.2px solid rgba(117, 0, 250, 1);
+}
+
+.tech-icon-images {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.quote-card-view {
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+
+.about-activity {
+  list-style: none;
+  text-align: left;
+  padding-left: 1px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px;
+  }
+  .about-section {
+    padding-top: 100px;
+  }
+}

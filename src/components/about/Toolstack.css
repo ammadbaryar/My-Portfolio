@@ -1,0 +1,50 @@
+.toolstack-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.tech-icons {
+  font-size: 5.5em; /* Bigger icons */
+  margin: 20px;
+  padding: 20px;
+  opacity: 0.93;
+  border: 1.7px solid rgb(89, 0, 190);
+  text-align: center;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 5px 8px 4px rgba(117, 0, 250, 0.37);
+  overflow: hidden;
+  transition: transform 0.3s ease, border 0.3s ease; /* Smooth hover */
+  min-width: 110px;
+  min-height: 110px;
+  background: transparent; /* Ensures visibility */
+  cursor: pointer; /* Makes it clickable */
+}
+
+.tech-icons:hover {
+  transform: scale(1.15);
+  border: 2.5px solid rgba(117, 0, 250, 1);
+}
+
+.tech-icon-images {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* 📱 Responsive Layout */
+@media (max-width: 1024px) {
+  .techstack-container {
+    grid-template-columns: repeat(3, 1fr); /* Tablet */
+  }
+}
+
+@media (max-width: 600px) {
+  .techstack-container {
+    grid-template-columns: repeat(2, 1fr); /* Mobile */
+  }
+}
