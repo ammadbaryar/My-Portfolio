@@ -14,35 +14,16 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-flex">
-        <div className="footer-section">
+        {/* <div className="footer-section">
           <span>Dedicated to creating impactful solutions!</span>
-        </div>
+        </div> */}
         <div className="footer-section footer-center">
-          <span>Copyright © {year}</span>
-          <img src={logo} className="logo" alt="brand" />
+          <span>Copyright © {year} by Ammad Iftikhar</span>
+          
         </div>
         <div className="footer-section">
           <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="github"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="twitter"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
+            
             <li className="social-icons">
               <a
                 href="/"
@@ -58,9 +39,30 @@ const Footer = () => {
                 href="/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="github"
+              >
+                <AiFillGithub />
+              </a>
+            </li>
+           
+            <li className="social-icons">
+              <a
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="leetcode"
               >
                 <SiLeetcode />
+              </a>
+            </li>
+             <li className="social-icons">
+              <a
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="twitter"
+              >
+                <AiOutlineTwitter />
               </a>
             </li>
           </ul>

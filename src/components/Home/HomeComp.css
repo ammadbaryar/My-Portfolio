@@ -1,76 +1,140 @@
-.home-about-section {
+/* .home-about-section {
+  position: relative;
+  /* padding-bottom: 70px !important; 
+  padding-top: 70px !important;
+  /* background-image: var(--image-gradient), url('./assets/home-bg.jpg'); 
+
+
+  background-image: 
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px),
+    linear-gradient(to left, rgba(5, 8, 40, 0.7), rgba(1, 4, 39, 0.7)),
+    url(../assets/home-bg.jpg);
+  background-size: 200px 200px, 250px 250px, 180px 180px, cover, cover;
+  background-position: 50px 30px, 120px 80px, 200px 150px, center, center;
+  background-repeat: repeat, repeat, repeat, no-repeat, no-repeat;
+  background-attachment: fixed;
+   padding: 30px 0;
   width: 100%;
-  padding: 2rem 0;
-  background: #1a1a1a;
+  /* margin-top: -80px;   
+  z-index: -1;
+} */
+
+/* HomeComp.css */
+
+.home-about-section {
+  position: relative;
+  background-color: #0d0d2b; /* Dark navy background */
   color: #fff;
+  padding: 60px 20px;
+  /* background-image: radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px);
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px; Small white star dots */
+   background-image: 
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px),
+    linear-gradient(to left, rgba(5, 8, 40, 0.7), rgba(1, 4, 39, 0.7)),
+    url(../assets/home-bg.jpg);
+  background-size: 200px 200px, 250px 250px, 180px 180px, cover, cover;
+  background-position: 50px 30px, 120px 80px, 200px 150px, center, center;
+  background-repeat: repeat, repeat, repeat, no-repeat, no-repeat;
+  background-attachment: fixed;
 }
 
-.about-container {
+.home-about-container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 1.5rem;
 }
 
-.about-main {
+.home-about-main {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 2rem;
-}
-
-.about-description {
-  flex: 2 1 60%;
-  min-width: 300px;
-}
-
-.about-avatar {
-  flex: 1 1 300px;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
 }
 
-.avatar-img {
-  max-width: 220px;
-  width: 100%;
-  border-radius: 10px;
+.home-about-description {
+  flex: 1 1 55%;
 }
 
-.about-social {
-  margin-top: 2.5rem;
+.home-about-description h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.home-about-description h1 span.purple {
+  color: #7500fa; /* Purple highlight like screenshot */
+}
+
+.home-about-body {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #dcdcdc;
+}
+
+.purple {
+  color: #7500fa;
+}
+
+.home-about-avatar {
+  flex: 1 1 35%;
   text-align: center;
 }
 
-.home-about-social-links {
+.avatar-img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.home-about-social {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.home-about-social h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.home-about-social p {
+  color: #dcdcdc;
+  font-size: 1rem;
+}
+
+.home-about-social p .purple {
+  color: #7500fa;
+}
+
+.home-about-social-link {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
-  list-style: none;
+  gap: 20px;
+  margin-top: 20px;
   padding: 0;
-  margin: 1.5rem 0 0 0;
+  list-style: none;
 }
 
-.social-icons a {
-  color: #fff;
-  font-size: 2rem;
-  transition: color 0.2s;
+.social-icon a {
+  font-size: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff; /* Neon green circle */
+  color: #0d0d2b;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.social-icons a:hover {
-  color: #f7ca18;
-}
-
-.yellow {
-  color: #f7ca18;
-}
-
-@media (max-width: 900px) {
-  .about-main {
-    flex-direction: column;
-    align-items: center;
-  }
-  .about-description, .about-avatar {
-    width: 100%;
-    min-width: unset;
-  }
+.social-icon a:hover {
+  transform: translateY(-5px);
+  background-color: #fff;
+  color: #7500fa;
 }

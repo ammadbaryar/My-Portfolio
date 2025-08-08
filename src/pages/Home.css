@@ -10,18 +10,55 @@
   padding-top: 30px;
   width: 100%;
 } */ 
-
+/* 
 .home-section {
   position: relative;
   background-image: linear-gradient(to left, rgba(5, 8, 40, 0.7), rgba(1, 4, 39, 0.7)), url(../assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  z-index: -1;
-  /* background-size: fit-cover; */
-  background-attachment: fixed; /* This makes the background image fixed */
+  /* z-index: -1; */
+  /* background-size: fit-cover; 
+  background-attachment: fixed; 
   padding: 30px 0;
   width: 100%;
+  margin-top: -80px; /* if your navbar height is ~80px 
+  z-index: -1;
+} */
+
+/* 
+.home-section {
+  position: relative;
+  background-image: 
+    radial-gradient(white 1px, transparent 1px),
+    linear-gradient(to left, rgba(5, 8, 40, 0.7), rgba(1, 4, 39, 0.7)),
+    url(../assets/home-bg.jpg);
+  background-size: 3px 3px, cover, cover;
+  background-position: 0 0, center, center;
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-attachment: fixed;
+} */
+
+
+.home-section {
+  position: relative;
+  background-image: 
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px),
+    linear-gradient(to left, rgba(5, 8, 40, 0.7), rgba(1, 4, 39, 0.7)),
+    url(../assets/home-bg.jpg);
+  background-size: 200px 200px, 250px 250px, 180px 180px, cover, cover;
+  background-position: 50px 30px, 120px 80px, 200px 150px, center, center;
+  background-repeat: repeat, repeat, repeat, no-repeat, no-repeat;
+  background-attachment: fixed;
+   padding: 30px 0;
+  width: 100%;
+  margin-top: -80px;  
+  z-index: -1;
 }
+
+
+
 .home-content {
   padding: 9rem 0 2rem 0;
   color: whitesmoke;

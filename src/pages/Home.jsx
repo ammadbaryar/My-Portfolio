@@ -2,7 +2,8 @@ import React from 'react';
 import homeLogo from '../assets/about.png';
 import Particle from '../components/Particle';
 import HomeComp from '../components/Home/HomeComp';
-// import Type from '../components/Home/Type';
+import Type from '../components/Home/Type';
+// import 'index.css';
 import './Home.css';
 
 const Home = () => {
@@ -24,7 +25,7 @@ const Home = () => {
                 <strong className="main-name">  Ammad Iftikhar</strong>
               </h1>
               <div className="type-container">
-                {/* <Type /> */}
+                <Type />
               </div>
             </div>
             <div className="home-col home-image-col">
