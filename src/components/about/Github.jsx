@@ -8,7 +8,7 @@ const Github = () => {
         display: "flex",
         flexDirection: "column", // stack heading above calendar
         alignItems: "center",    // center horizontally
-        justifyContent: "center", // center vertically (optional if needed)
+        justifyContent: "center",
         paddingBottom: "10px",
       }}
     >

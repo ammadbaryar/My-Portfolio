@@ -66,7 +66,7 @@ const Techstack = () => {
       <div className="tech-icons"><SiCss3 /></div> {/* ✅ CSS3 */}
       <div className="tech-icons"><DiJavascript1 /></div>
       <div className="tech-icons"><DiNodejs /></div>
-      <div className="tech-icons"><SiExpress /></div> {/* ✅ Express.js */}
+      <div className="tech-icons"><SiExpress /></div> 
       <div className="tech-icons"><DiReact /></div>
       <div className="tech-icons"><SiRedux /></div>
       <div className="tech-icons"><SiMongodb /></div>

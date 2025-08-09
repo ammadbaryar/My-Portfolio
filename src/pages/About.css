@@ -1,14 +1,3 @@
-/* .about-section {
-  position: relative;
-  padding-top: 150px;
-  padding-bottom: 30px;
-  background-image: var(--section-background-color);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* center all sections horizontally 
-  gap: 40px;  spacing between sections 
-} */
 
 .about-section {
   position: relative;

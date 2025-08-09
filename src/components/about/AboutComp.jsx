@@ -28,7 +28,7 @@ const AboutComp = () => {
           </ul>
         </div>
 
-        {/* Right Column */}
+    
         <div className="aboutComp-image">
           <img src={aboutImage} alt="About illustration" />
         </div>

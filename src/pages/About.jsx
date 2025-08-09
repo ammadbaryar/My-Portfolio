@@ -42,9 +42,6 @@ const About = () => {
         <Toolstack />
       </div>
 
-      {/* <div style={{ maxWidth: "1200px", width: "100%" }}>
-        <Leetcode />
-      </div> */}
 
       <div style={{ maxWidth: "1200px", width: "100%" }}>
         <Github />

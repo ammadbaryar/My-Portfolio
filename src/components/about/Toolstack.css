@@ -23,7 +23,7 @@
   min-width: 110px;
   min-height: 110px;
   background: transparent; /* Ensures visibility */
-  cursor: pointer; /* Makes it clickable */
+  cursor: pointer; 
 }
 
 .tech-icons:hover {
