@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/sLogo.png";
+import logo from "../../assets/logo-port.png";
+
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineContacts
+  AiOutlineContacts,
 } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi";
 import { CgFileDocument } from "react-icons/cg";
@@ -13,20 +14,19 @@ import "./Navbar.css";
 function NavBar() {
   const [expand, setExpand] = useState(false);
   const [navColour, setNavColour] = useState(false);
-  
+
   useEffect(() => {
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      setNavColour(true);
-    } else {
-      setNavColour(false);
+    function scrollHandler() {
+      if (window.scrollY >= 20) {
+        setNavColour(true);
+      } else {
+        setNavColour(false);
+      }
     }
-  }
-  scrollHandler(); // Ensure state is set on initial render
-  window.addEventListener("scroll", scrollHandler);
-  return () => window.removeEventListener("scroll", scrollHandler);
-}, []);
-    
+    scrollHandler();
+    window.addEventListener("scroll", scrollHandler);
+    return () => window.removeEventListener("scroll", scrollHandler);
+  }, []);
 
   return (
     <nav className={`navbar ${navColour ? "sticky" : ""}`}>

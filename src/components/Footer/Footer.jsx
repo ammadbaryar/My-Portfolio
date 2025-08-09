@@ -1,11 +1,7 @@
 import React from "react";
-import {
-  AiFillGithub,
-  AiOutlineTwitter
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
-import logo from "../../assets/sLogo.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -14,19 +10,14 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-flex">
-        {/* <div className="footer-section">
-          <span>Dedicated to creating impactful solutions!</span>
-        </div> */}
         <div className="footer-section footer-center">
           <span>Copyright © {year} by Ammad Iftikhar</span>
-          
         </div>
         <div className="footer-section">
           <ul className="footer-icons">
-            
             <li className="social-icons">
               <a
-                href="/"
+                href= "https://www.linkedin.com/in/ammad-iftikhar-b46515234"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="linkedin"
@@ -36,7 +27,7 @@ const Footer = () => {
             </li>
             <li className="social-icons">
               <a
-                href="/"
+                href="https://github.com/ammadbaryar"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="github"
@@ -44,10 +35,10 @@ const Footer = () => {
                 <AiFillGithub />
               </a>
             </li>
-           
+
             <li className="social-icons">
               <a
-                href="/"
+                href="https://leetcode.com/u/ammadbaryar/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="leetcode"
@@ -55,9 +46,9 @@ const Footer = () => {
                 <SiLeetcode />
               </a>
             </li>
-             <li className="social-icons">
+            <li className="social-icons">
               <a
-                href="/"
+                href="https://x.com/AmmadBaryar?s=09"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="twitter"

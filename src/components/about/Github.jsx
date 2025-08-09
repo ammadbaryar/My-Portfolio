@@ -6,8 +6,8 @@ const Github = () => {
     <div
       style={{
         display: "flex",
-        flexDirection: "column", // stack heading above calendar
-        alignItems: "center",    // center horizontally
+        flexDirection: "column",
+        alignItems: "center",
         justifyContent: "center",
         paddingBottom: "10px",
       }}
@@ -19,9 +19,10 @@ const Github = () => {
         }}
         className="project-heading"
       >
-        Days I <strong style={{color : "#a855f7" }}>Code</strong>
+        Days I <strong style={{ color: "#a855f7" }}>Code</strong>
       </h1>
       <GitHubCalendar
+        alt="GithubCalender by Ammad Baryar"
         username="ammadbaryar"
         blockSize={15}
         blockMargin={5}

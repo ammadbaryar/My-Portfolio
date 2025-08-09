@@ -1,43 +1,13 @@
-/* .tech-icons {
-  font-size: 4.5em;
-  margin: 15px;
-  padding: 10px;
-  opacity: 0.93;
-  border: 1.7px solid rgb(89, 0, 190);
-  vertical-align: middle;
-  text-align: center;
-  border-radius: 5px;
-  display: flex; /* use flex for better alignment 
-  align-items: center;
-  justify-content: center;
-  box-shadow: 4px 5px 4px 3px rgba(117, 0, 250, 0.37);
-  overflow: hidden;
-  transition: all 0.4s ease;
-  min-width: 80px;
-  min-height: 80px;
-}
-
-.tech-icons:hover {
-  transform: scale(1.05);
-  border: 2.2px solid rgba(117, 0, 250, 1);
-}
-
-.tech-icon-images {
-  padding: 20px;
-  line-height: 1.6;
-} */
-
-
 .techstack-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 5 icons per row desktop */
+  grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   gap: 20px;
   margin-top: 30px;
 }
 
 .tech-icons {
-  font-size: 5.5em; /* Bigger icons */
+  font-size: 5.5em;
   margin: 20px;
   padding: 20px;
   opacity: 0.93;
@@ -49,11 +19,11 @@
   justify-content: center;
   box-shadow: 4px 5px 8px 4px rgba(117, 0, 250, 0.37);
   overflow: hidden;
-  transition: transform 0.3s ease, border 0.3s ease; /* Smooth hover */
+  transition: transform 0.3s ease, border 0.3s ease;
   min-width: 110px;
   min-height: 110px;
-  background: transparent; /* Ensures visibility */
-  cursor: pointer; /* Makes it clickable */
+  background: transparent;
+  cursor: pointer;
 }
 
 .tech-icons:hover {
@@ -66,15 +36,3 @@
   line-height: 1.6;
 }
 
-
-@media (max-width: 1024px) {
-  .techstack-container {
-    grid-template-columns: repeat(3, 1fr); /* Tablet */
-  }
-}
-
-@media (max-width: 600px) {
-  .techstack-container {
-    grid-template-columns: repeat(2, 1fr); /* Mobile */
-  }
-}

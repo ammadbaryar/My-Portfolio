@@ -1,5 +1,5 @@
 .aboutComp-section {
-  padding: 100px 20px 60px; 
+  padding: 100px 20px 60px;
   color: white;
 }
 
@@ -12,13 +12,12 @@
   gap: 50px;
 }
 
-/* Left Column */
 .aboutComp-text {
   flex: 1;
 }
 
 .aboutComp-text h1 {
-  font-size: 2.4rem; /* Bigger heading */
+  font-size: 2.4rem;
   font-weight: 600;
   margin-bottom: 25px;
 }
@@ -29,7 +28,7 @@
 }
 
 .aboutComp-text p {
-  font-size: 1.4rem; /* Larger text */
+  font-size: 1.4rem;
   line-height: 1.8;
   color: #ddd;
   margin-bottom: 15px;
@@ -38,17 +37,16 @@
 .aboutComp-text ul {
   padding: 0;
   margin-top: 15px;
-  list-style: none; /* No bullet points */
+  list-style: none;
 }
 
 .aboutCompActivity {
-  font-size: 1.3rem; /* Bigger hobby text */
+  font-size: 1.3rem;
   color: #ccc;
   margin-bottom: 10px;
-  padding-left: 0; /* Remove indent */
+  padding-left: 0;
 }
 
-/* Right Column */
 .aboutComp-image {
   flex: 1;
   display: flex;
@@ -58,17 +56,4 @@
 .aboutComp-image img {
   max-width: 100%;
   height: auto;
-}
-
-/* Responsive */
-@media (max-width: 900px) {
-  .aboutComp-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .aboutComp-text ul {
-    text-align: center;
-    padding-left: 0;
-  }
 }

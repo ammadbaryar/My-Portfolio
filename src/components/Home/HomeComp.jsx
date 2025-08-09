@@ -57,11 +57,9 @@ const HomeComp = () => {
             <span className="purple">connect.</span>
           </p>
           <ul className="home-about-social-link">
-            
-            
             <li className="social-icon">
               <a
-                href="/"
+                href="https://www.linkedin.com/in/ammad-iftikhar-b46515234"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour home-social-icons"
@@ -72,7 +70,7 @@ const HomeComp = () => {
             </li>
             <li className="social-icon">
               <a
-                href="/"
+                href="https://github.com/ammadbaryar"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour home-social-icons"
@@ -83,19 +81,18 @@ const HomeComp = () => {
             </li>
             <li className="social-icon">
               <a
-                href="/"
+                href="https://leetcode.com/u/ammadbaryar/"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour home-social-icons"
                 aria-label="leetcode"
               >
                 <SiLeetcode />
-
               </a>
             </li>
             <li className="social-icon">
               <a
-                href="/"
+                href="https://x.com/AmmadBaryar?s=09"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour home-social-icons"

@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
@@ -11,11 +9,7 @@ const ProjectCard = (props) => {
   return (
     <Card className="project-card-view">
       <div className="project-card-img-container">
-        <img
-          src={props.imgPath}
-          alt="card-img"
-          className="project-card-img"
-        />
+        <img src={props.imgPath} alt="card-img" className="project-card-img" />
       </div>
 
       <Card.Body className="project-card-body">
@@ -26,7 +20,14 @@ const ProjectCard = (props) => {
           </Card.Text>
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginTop: "auto" }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            gap: "10px",
+            marginTop: "auto",
+          }}
+        >
           <Button
             variant="primary"
             href={props.ghLink}

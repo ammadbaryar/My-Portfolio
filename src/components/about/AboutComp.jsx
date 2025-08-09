@@ -1,19 +1,18 @@
 import React from "react";
 import "./AboutComp.css";
-import aboutImage from "../../assets/aboutPage.svg"; // Replace with your image path
+import aboutImage from "../../assets/aboutPage.svg";
 
 const AboutComp = () => {
   return (
     <section className="aboutComp-section">
       <div className="aboutComp-content">
-        {/* Left Column */}
         <div className="aboutComp-text">
           <h1>
             Learn More <span className="purple">About Me</span>
           </h1>
           <p>
-            Hi Everyone, I am <strong>Ammad Iftikhar</strong>,<br />
-            a software engineer currently based in{" "}
+            Hi Everyone, I am <strong>Ammad Iftikhar</strong>,<br />a software
+            engineer currently based in{" "}
             <span className="purple">Islamabad, Pakistan.</span>
           </p>
           <p>
@@ -28,7 +27,6 @@ const AboutComp = () => {
           </ul>
         </div>
 
-    
         <div className="aboutComp-image">
           <img src={aboutImage} alt="About illustration" />
         </div>

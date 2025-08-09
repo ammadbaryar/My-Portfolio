@@ -1,5 +1,5 @@
 import React from "react";
-// import ProjectCard from "../components/project/ProjectCard.jsx";
+
 import Particle from "../components/Particle";
 import weather from "../assets/projects/weather.png";
 import portfolio from "../assets/projects/portfolio.png";
@@ -8,7 +8,7 @@ import project from "../assets/projects/project.jpeg";
 import blog from "../assets/projects/blog.png";
 import kickstart from "../assets/projects/kickstart.png";
 import ProjectCard from "../components/project/ProjectCard.jsx";
-import "./Project.css"; 
+import "./Project.css";
 
 const Project = () => {
   return (
@@ -16,19 +16,14 @@ const Project = () => {
       <Particle />
       <div className="container">
         <h1 className="project-heading">
-          Recent Top <strong style={{color : "#a855f7" }}>Works </strong>
+          Recent Top <strong style={{ color: "#a855f7" }}>Works </strong>
         </h1>
         <p className="project-para">
           Here are a few projects I've worked on recently.
         </p>
 
-     
-        <div
-          className="projects-container"
-        >
-          
-
-          <div className="project-card" >
+        <div className="projects-container">
+          <div className="project-card">
             <ProjectCard
               imgPath={weather}
               isBlog={false}
@@ -38,7 +33,7 @@ const Project = () => {
             />
           </div>
 
-          <div className="project-card" >
+          <div className="project-card">
             <ProjectCard
               imgPath={blog}
               isBlog={false}
@@ -48,7 +43,7 @@ const Project = () => {
               demoLink="https://mega-blog-sigma-eight.vercel.app/"
             />
           </div>
- <div className="project-card" >
+          <div className="project-card">
             <ProjectCard
               imgPath={portfolio}
               isBlog={false}
@@ -57,8 +52,8 @@ const Project = () => {
               ghLink="https://github.com/ammadbaryar/My-Portfolio"
             />
           </div>
-         
-          <div className="project-card" >
+
+          <div className="project-card">
             <ProjectCard
               imgPath={menu}
               isBlog={false}
@@ -67,7 +62,7 @@ const Project = () => {
               ghLink="https://github.com/ammadbaryar/Restaurant-Menu-APP"
             />
           </div>
-           <div className="project-card">
+          {/* <div className="project-card">
             <ProjectCard
               imgPath={project}
               isBlog={false}
@@ -77,11 +72,9 @@ const Project = () => {
 "
               ghLink=""
             />
-          </div>
+          </div> */}
 
-         
-
-          <div className="project-card" >
+          {/* <div className="project-card">
             <ProjectCard
               imgPath={kickstart}
               isBlog={false}
@@ -89,7 +82,7 @@ const Project = () => {
               description="This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database."
               ghLink=""
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

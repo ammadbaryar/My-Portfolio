@@ -1,23 +1,23 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import "./Type.css"; // Assuming you have a CSS file for styling
+import "./Type.css";
 
 const Type = () => {
-    return (
-        <Typewriter
-          options={{
-           strings: [
-  "Aspiring Full Stack Developer",
-  "Frontend Engineer",
-  "JavaScript & ReactJS Specialist",
-  "Future Tech Innovator"
-],
-            autoStart: true,
-            loop: true,
-            deleteSpeed: 50,
-          }}
-        />
-      )
-}
+  return (
+    <Typewriter
+      options={{
+        strings: [
+          "Aspiring Full Stack Developer",
+          "Frontend Engineer",
+          "JavaScript & ReactJS Specialist",
+          "Future Tech Innovator",
+        ],
+        autoStart: true,
+        loop: true,
+        deleteSpeed: 50,
+      }}
+    />
+  );
+};
 
-export default Type
+export default Type;

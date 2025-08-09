@@ -1,0 +1,77 @@
+.resume-section {
+  background-image: radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px),
+    linear-gradient(to left, rgba(5, 8, 40, 0.7), rgba(1, 4, 39, 0.7)),
+    url(../assets/home-bg.jpg);
+  background-size: 200px 200px, 250px 250px, 180px 180px, cover, cover;
+  background-position: 50px 30px, 120px 80px, 200px 150px, center, center;
+  background-repeat: repeat, repeat, repeat, no-repeat, no-repeat;
+  background-attachment: fixed;
+  padding: 30px 0;
+  width: 100%;
+  margin-top: -80px;
+}
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 700px;
+}
+
+.resume-side {
+  background: #111;
+  width: 8vw;
+  min-width: 60px;
+  height: 100%;
+}
+
+.resume-center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume-left {
+  padding-right: 80px !important;
+}
+
+.resume-right {
+  padding-left: 80px !important;
+}
+
+.resume-title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  color: #fff;
+  margin-top: 50px
+}
+
+.center-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.btn-download {
+  color: #fff;
+  background-color: #7500fa !important;
+  border-color: #7500fa !important;
+  padding: 10px 20px !important;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.btn-download:hover {
+  color: #7500fa !important;
+  background-color: #fff !important;
+  border-color: #7500fa !important;
+}
+
