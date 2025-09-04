@@ -30,6 +30,8 @@ Follow these steps to run the project on your local machine:
    cd My-Portfolio
 
 2. **Install Dependencies**
+
+    ```bash
    npm install
    npm install @emotion/react @emotion/styled
     @mui/icons-material @mui/material @react-pdf-viewer/core
@@ -37,7 +39,9 @@ Follow these steps to run the project on your local machine:
     react-github-calendar react-icons react-parallax-tilt
     react-pdf react-router-dom react-tsparticles typewriter-effect
 
-3. **Run the Project**
+4. **Run the Project**
+
+   ```bash
    npm start
    npm run build
    http://localhost:3000
