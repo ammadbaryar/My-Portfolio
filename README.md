@@ -42,9 +42,10 @@ Follow these steps to run the project on your local machine:
     bootstrap pdfjs-dist react react-bootstrap react-dom
     react-github-calendar react-icons react-parallax-tilt
     react-pdf react-router-dom react-tsparticles typewriter-effect
+---
 
-4. **Run the Project**
-
+3. **Run the Project**
+---
    ```bash
    npm start
 
