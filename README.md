@@ -33,24 +33,17 @@ Follow these steps to run the project on your local machine:
 
     ```bash
    npm install
-    
----
 
-   ```bash
    npm install @emotion/react @emotion/styled
     @mui/icons-material @mui/material @react-pdf-viewer/core
     bootstrap pdfjs-dist react react-bootstrap react-dom
     react-github-calendar react-icons react-parallax-tilt
     react-pdf react-router-dom react-tsparticles typewriter-effect
----
+
 
 3. **Run the Project**
----
+   
    ```bash
    npm start
-
----
-
-```bash
    npm run build
    http://localhost:3000
