@@ -14,9 +14,9 @@ A personal portfolio website to showcase my skills, projects, and experiences as
 ---
 
 ## 🛠️ Tech Stack  
-- **Frontend:** HTML5, CSS3, JavaScript, React.js  
-- **Styling:** Tailwind CSS / CSS Modules  
-- **Deployment:** GitHub Pages / Vercel / Netlify  
+- **Frontend:** JavaScript, React.js  
+- **Styling:** CSS  
+- **Deployment:** Vercel  
 
 ---
 
@@ -26,7 +26,7 @@ Follow these steps to run the project on your local machine:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/My-Portfolio.git
+   git clone https://github.com/ammadbaryar/My-Portfolio.git
    cd My-Portfolio
 
 2. **Install Dependencies**
@@ -41,9 +41,13 @@ Follow these steps to run the project on your local machine:
     react-pdf react-router-dom react-tsparticles typewriter-effect
 
 
-3. **Run the Project**
+3. **Start the Devlopment Server**
    
    ```bash
    npm start
+
+
+4. **Build for Production**
+   
+   ```bash
    npm run build
-   http://localhost:3000
